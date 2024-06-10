@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Mobile 2010 - Watch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="YoutubeEmbed V1.0.js"></script>
+    <script src="Video2010 V4.0.js"></script>
+    <script src="Like2010 V3.0.js"></script>
+</head>
+<body>
+    <header>
+        <h1>YouTube</h1>
+    </header>
+    <main>
+        <div class="video-player">
+            <video id="video" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-info">
+            <h2>Video Title</h2>
+            <p>Video description goes here.</p>
+            <button id="like-button">Like</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2010 YouTube</p>
+    </footer>
+    <script>
+        // Example script to handle like button
+        document.getElementById('like-button').addEventListener('click', function() {
+            alert('Liked!');
+        });
+    </script>
+</body>
+</html>
